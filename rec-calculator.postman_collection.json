@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "668be577-b220-4f42-a22a-f8100e851bbf",
+		"name": "rec-calculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5693323"
+	},
+	"item": [
+		{
+			"name": "GET - /api/v1/rec",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/rec?countryName=COTE D'IVOIRE&branchType=NOT LIFE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"rec"
+					],
+					"query": [
+						{
+							"key": "countryName",
+							"value": "COTE D'IVOIRE"
+						},
+						{
+							"key": "branchType",
+							"value": "NOT LIFE"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
