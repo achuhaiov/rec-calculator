@@ -1,15 +1,22 @@
 Overview:
 Implemented with base filter parameters, good scalable for adding another parameters, repositories etc.
 
+
 Postman collection: 
 rec-calculator/rec-calculator.postman_collection.json
 
+
 Database:
-Input json-files need to be imported into mongoDB
+Input json-files need to be imported into mongoDB.
 Set connection properties here src/main/resources/application.yml
 
+
+
 Test Scenario (see in Postman collection):
+
 country “COTE D’IVOIRE” and “NOT LIFE” Company type
+
+
 Result:
 [
 {
